@@ -12,7 +12,7 @@ public:
 	Morph();
 	~Morph();
 
-	static const Mat OpeningCircle(const Mat image, const int i, const int j);
-	static const Mat ClosingCircle(const Mat image, const int i, const int j);
+	static const Mat OpeningCircle(const Mat* image, const int i, const int j);
+	static const Mat ClosingCircle(const Mat* image, const int i, const int j);
 };
 
